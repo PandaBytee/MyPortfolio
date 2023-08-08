@@ -1,0 +1,145 @@
+body {
+    background-color: #2e2152;
+    color: white;
+}
+
+/* Centers the navigation menu */
+.navbar {
+  width:750px;
+  margin:0 auto;
+  list-style:none;
+}
+
+.navbar a {
+  display:block;
+  text-align:center;
+  width:150px; /* fixed width */
+  text-decoration:none;
+  color: white;
+  padding: 14px 16px;
+}
+
+/* Inside of nav menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2e2152;
+}
+
+li {
+  float: left;
+}
+
+li a:hover:not(.active) {
+  background-color: #8162d7;
+}
+
+.active {
+  background-color: #9389f8;
+}
+
+/* Home section */
+.header {
+  font-size: 70px;
+  font-family: Poppins;
+}
+
+.contain2 {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+
+/* About me section */
+.header3 {
+  font-size: 30px;
+  font-family: Poppins;
+  text-align: center;
+}
+
+.contain {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+  align-items: center;
+}
+
+/* Contact section */
+.header2 {
+  font-size: 30px;
+  font-family: Poppins;
+  text-align: center;
+}
+
+.ctext {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Contact form */
+form { 
+  max-width:420px; margin:50px auto; 
+}
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  border:2px solid #ffd2d7;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { 
+  border:2px solid #ffd2d7 
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+  background:#ffd2d7;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:#2e2152;
+  font-size:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="submit"]:hover { 
+  background:#ffd2d7; 
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;   /* Height of the footer */
+  background: #2e2152;
+}
